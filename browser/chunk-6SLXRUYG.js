@@ -1,0 +1,1 @@
+import{ea as i,o as s,qa as u,vc as t,wc as d,xa as c,ya as a}from"./chunk-ZIXU4GN5.js";function f(l,n){!n?.injector&&u(f);let r=n?.injector??i(c),e=new s(1),b=d(()=>{let o;try{o=l()}catch(y){t(()=>e.error(y));return}t(()=>e.next(o))},{injector:r,manualCleanup:!0});return r.get(a).onDestroy(()=>{b.destroy(),e.complete()}),e.asObservable()}export{f as a};
